@@ -1,0 +1,38 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: max-content;
+    margin: 0 auto;
+}
+
+.form:not(:first-child) {
+    margin-top: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav {
+    display: flex;
+}
+
+header>nav>ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
