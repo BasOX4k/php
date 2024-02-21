@@ -1,0 +1,33 @@
+.pluie {
+  width: 10px;
+  background-color: blue;
+}
+#conteneur {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.jour {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.jour p {
+  display: block;
+  transform: rotate(-50deg);
+  margin: 15px 0 0 -15px;
+}
+
+#legende {
+  height:200px;
+  width: 5px;
+  background-color:grey;
+  margin: 0 0 33px 0;
+}
+
+.content-legende p {
+  display: block;
+  margin: 0px 0 4px 0px;
+}
